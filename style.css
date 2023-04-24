@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .added-container {
@@ -147,17 +147,17 @@ input {
 
 /* completed */
 #completed-tasks .task-line {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through; color: #888;
 }
 
 /* edit task */
 .task-container .task {
-  display: none
+  display: none;
 }
 
 .edit-mode .task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-line {
