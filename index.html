@@ -14,27 +14,29 @@
         media="screen">
 </head>
 <body class="all-page">
-  <div class="eisenhower-matrix">
+  <header class="eisenhower-matrix">
     <img src="./eisenhower-matrix.jpg"
          class="matrix-foto">
     <a class="matrix-link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
-  </div>
-  <div class="main-element">
-    <p id="added-tasks">
+  </header>
+  <main class="main-element">
+    <article id="added-tasks">
       <label for="new-task"
              class="added-text">
           Add Item
       </label>
-      <div class="added-container">
+      <section class="added-container">
         <input id="new-task" 
                class="task" 
                type="text">
-        <button class="but-style">Add</button>
-      </div>
-    </p>
+        <button class="but-style">
+            Add
+        </button>
+      </section>
+    </article>
     <h3 class="title-text">Todo</h3>
     <ul id="incomplete-tasks">
       <li class="task-container">
@@ -50,7 +52,7 @@
         </button>
         <button class="delete but-style">
           <img src="./remove.svg"
-              class="delete-foto">
+               class="delete-foto">
         </button>
       </li>
       <li class="edit-mode task-container">
@@ -91,7 +93,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
