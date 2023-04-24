@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix-foto {
   width: 100%;
 }
+
 .eisenhower-matrix .matrix-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .eisenhower-matrix { text-align: center;
+
+  .eisenhower-matrix { 
+    text-align: center;
   }
+
 }
+
 .main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .added-container {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li {
   list-style:none;
 }
+
 input {
   outline:none;
 }
+
 .but-style {
   background: none;
   border: 0px;
@@ -53,12 +66,13 @@ input {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .but-style:hover {
   color: #3a3a3a;
 }
+
 /* heading */
-.title-text,
-.added-text {
+.title-text, .added-text {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,6 +81,7 @@ input {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task {
   margin: 0;
   font-size: 18px;
@@ -79,6 +94,7 @@ input {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task:focus {
   color: #333;
 }
@@ -88,6 +104,7 @@ input {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -97,7 +114,6 @@ input {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,11 +134,13 @@ input {
 .task {
   width: 226px;
 }
+
 .delete-foto {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-foto:hover {
   transform: rotateZ(0);
 }
